@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonblueInvisible"
+        android:layout_width="358dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="48dp"
+        android:background="#AED2FF"
+        android:fontFamily="monospace"
+        android:onClick="ToDo"
+        android:text="The Invisible Man's To Do List"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:typeface="sans"
+        app:backgroundTint="#AED2FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonpinkpather"
+        android:layout_width="358dp"
+        android:layout_height="74dp"
+        android:background="#FD9BF3"
+        android:fontFamily="monospace"
+        android:onClick="ToDo"
+        android:text="The Pink Panther's To Do List"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:typeface="sans"
+        app:backgroundTint="#FD9BF3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonblueInvisible"
+        app:layout_constraintVertical_bias="0.034" />
+</androidx.constraintlayout.widget.ConstraintLayout>
